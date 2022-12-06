@@ -1,11 +1,11 @@
-pragma solidity >=0.7.0< 0.0.9;
+pragma solidity >=0.7.0 < 0.9.0;
 contract firstcontract {
     uint saveData   ;
-    function set(unit x) public{
+    function set (uint x) public{
         saveData=x;
 
     }  
-    function get() public view returns(unit x){
-        return saveData
+    function get() public view returns(uint x){
+        return saveData;
     }
 }
